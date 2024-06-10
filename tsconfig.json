@@ -3,7 +3,7 @@
         "target": "ES5",
         "module": "ESNext",
         "declaration": true,
-        // "declarationDir": "dist/types",
+        "declarationDir": "dist/types",
         "outDir": "./dist/esm",
         "strict": true,
         "jsx": "react",
