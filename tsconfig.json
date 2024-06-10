@@ -3,13 +3,14 @@
         "target": "ES5",
         "module": "ESNext",
         "declaration": true,
-        "declarationDir": "dist/types",
-        "outDir": "./dist",
+        // "declarationDir": "dist/types",
+        "outDir": "./dist/esm",
         "strict": true,
         "jsx": "react",
         "esModuleInterop": true,
         "skipLibCheck": true,
-        "forceConsistentCasingInFileNames": true
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": true,
     },
     "include": ["src"]
 }
